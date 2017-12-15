@@ -1,0 +1,219 @@
+.header {
+    height: 60px;
+    background-color: white;
+    float: left;
+    width: 100%;
+
+    &__mobile {
+
+        @media (min-width: 1024px) {
+            display: none;
+        }
+
+    }
+
+    &__desktop {
+        padding-bottom: 39px;
+
+        @media (max-width: 1023px) {
+            display: none;
+        }
+
+    }
+
+    &__menu-mobile {
+        margin-right: 33px;
+        padding: 23px 0;
+        float: left;
+    }
+
+    &__logo-mobile {
+        width: 57px;
+        margin-right: 76px;
+        padding: 8px 0;
+        float: left;
+    }
+
+    &__logo-desktop {
+        width: 117px;
+        float: left;
+    }
+
+    &__phone-icon {
+        margin-right: 7px;
+        padding: 22px 0;
+        float: right;
+    }
+
+    &__phone-number-mobile {
+        font-size: 18px;
+        line-height: 1;
+        margin: 0;
+        padding: 21px 0;
+        float: right;
+    }
+
+    &__phone-number-desktop {
+        color: #D52B1E;
+        font-size: 24px;
+        line-height: 1;
+        float: right;
+        padding-top: 53px;
+        margin: 0;
+        position: relative;
+        text-decoration: none;
+    }
+
+    &__phone-label {
+        color: #333333;
+        font-size: 12px;
+        line-height: 1;
+        position: absolute;
+        top: 35px;
+        right: 115px;
+        margin: 0;
+    }
+
+    &__top-left-nav {
+        margin: 0;
+        float: left;
+        padding-left: 0;
+        padding-top: 12px;
+        padding-bottom: 9px;
+        margin-left: 160px;
+
+        li {
+            list-style: none;
+            float: left;
+            margin-right: 34px;
+            font-size: 12px;
+            line-height: 14px;
+
+            a {
+                text-decoration: none;
+                color: #4B4B4B;
+            
+            }
+
+        }
+
+        &-selected {
+            position: relative;
+
+            &:after {
+                position: absolute;
+                content: "";
+                height: 2px;
+                width: 66px;
+                top: -10px;
+                left: 0;
+                background-color: black;
+            }
+
+        }
+
+    }
+
+    &__top-right-nav {
+        margin: 0;
+        float: right;
+        padding-left: 0;
+        padding-top: 12px;
+        padding-bottom: 9px;
+
+        li {
+            list-style: none;
+            float: left;
+            margin-left: 34px;
+            font-size: 12px;
+            line-height: 14px;
+
+            a {
+                text-decoration: none;
+                color: #4B4B4B;
+            }
+
+            img {
+                margin-right: 6px;
+                position: relative;
+                top: -2px;
+            }
+
+        }
+
+    }
+
+    &__main-nav {
+        padding-left: 0;
+        float: left;
+        margin: 0;
+        padding-top: 53px;
+
+        li {
+            list-style: none;
+            float: left;
+            margin-left: 42px;
+
+            a {
+                text-decoration: none;
+                font-size: 24px;
+                line-height: 28px;
+                color: black;
+            }
+
+        }
+
+    }
+
+    &__banner {
+        width: 100%;
+        float: left;
+        border-top: solid 1px #CCCCCC;
+        background-color: white;
+        height: 61px;
+
+        &-house-icon {
+            float: left;
+            padding: 22px 0;
+            margin-right: 18px;
+        }
+
+        &-text {
+            font-size: 16px;
+            line-height: 61px;
+            float: left;
+            margin: 0;
+            margin-right: 25px;
+        }
+
+        &-link {
+            display: block;
+            float: left;
+
+            p {
+                color: #CD040B;
+                font-size: 16px;
+                line-height: 61px;
+                float: left;
+                margin: 0;
+            }
+
+            img {
+                float: left;
+                margin-left: 15px;
+                padding: 23.5px 0;
+            }
+
+        }
+
+        @media (max-width: 1024px) {
+            display: none;
+        }
+        
+    }
+
+    @media (min-width: 1024px) {
+        height: auto;
+    }
+
+}

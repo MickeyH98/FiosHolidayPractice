@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="14px" viewBox="0 0 10 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Fill 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Banner---ACOS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1041.000000, -24.000000)">
+        <g fill="#CD040B" id="Check-availability">
+            <g transform="translate(902.000000, 22.000000)">
+                <path d="M140.790459,2.2386801 L149,8.74032611 L140.822761,15.7346079 C140.357227,16.1327263 139.659877,16.0763978 139.263699,15.6095395 C138.86752,15.1417265 138.924524,14.4409617 139.389108,14.0428433 L145.510399,8.80620182 L139.42236,3.98390902 C138.941625,3.60393029 138.859919,2.90507495 139.237097,2.42294114 C139.455612,2.1451175 139.779586,2 140.107359,2 C140.346777,2 140.588094,2.07828707 140.790459,2.2386801 Z" id="Fill-1"></path>
+            </g>
+        </g>
+    </g>
+</svg>

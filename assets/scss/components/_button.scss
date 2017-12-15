@@ -1,0 +1,22 @@
+.button {
+    width: 100%;
+    max-width: 375px;
+    margin: 0 auto;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    border-radius: 30px;
+    padding: 18px 0;
+    font-size: 18px;
+    line-height: 1;
+
+    &__primary {
+        background-color: white;
+        color: black;
+    }
+
+    &__secondary {
+
+    }
+
+}
